@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import Nav from "./.core/navbar/Nav";
 
 function App() {
   return (
     <div>
-      <p>Dit is een website!</p>
+      <Nav />
     </div>
   );
 }

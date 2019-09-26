@@ -67,4 +67,10 @@
   grid-row-start: 2;
   grid-row-end: 3;
 }
+
+.img-left img,
+.img-right img {
+  object-fit: cover;
+  object-position: 0 30%;
+}
 /* -------------------------------- */

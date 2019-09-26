@@ -1,8 +1,13 @@
+/* GENERAL */
+/* -------------------------------- */
 * {
   margin: 0;
   padding: 0;
 }
+/* -------------------------------- */
 
+/* NAVBAR */
+/* -------------------------------- */
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -18,3 +23,48 @@
   justify-content: space-between;
   width: 35%;
 }
+/* -------------------------------- */
+
+/* HOME */
+/* -------------------------------- */
+.grid-img-left {
+  display: grid;
+  grid-template-columns: 100px 450px 80px auto 100px;
+  grid-template-rows: 100px 300px 100px;
+}
+
+.grid-img-right {
+  display: grid;
+  grid-template-columns: 100px auto 80px 450px 100px;
+  grid-template-rows: 100px 300px 100px;
+  background-color: #fbfbfb;
+}
+
+.img-left {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.txt-right {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.img-right {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.txt-left {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+/* -------------------------------- */

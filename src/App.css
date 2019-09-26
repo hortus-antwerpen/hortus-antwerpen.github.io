@@ -4,6 +4,17 @@
   margin: 0;
   padding: 0;
 }
+
+p {
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap");
 /* -------------------------------- */
 
 /* NAVBAR */
@@ -25,7 +36,7 @@
 }
 /* -------------------------------- */
 
-/* HOME */
+/* HOME GRID */
 /* -------------------------------- */
 .grid-img-left {
   display: grid;
@@ -52,6 +63,7 @@
   grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 3;
+  align-self: center;
 }
 
 .img-right {
@@ -66,11 +78,27 @@
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  align-self: center;
 }
 
 .img-left img,
 .img-right img {
   object-fit: cover;
   object-position: 0 30%;
+}
+/* -------------------------------- */
+
+/* HOME MISC */
+/* -------------------------------- */
+.title {
+  color: #4ead33;
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 16px;
+}
+
+.txt {
+  text-align: justify;
 }
 /* -------------------------------- */

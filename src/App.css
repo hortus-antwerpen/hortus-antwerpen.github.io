@@ -210,6 +210,24 @@ h1 {
   grid-row-end: 3;
 }
 
+.socials {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: 30px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.socials > i {
+  color: red;
+  width: 30px;
+}
+
 .divider {
   background-color: #f3f3f3;
 

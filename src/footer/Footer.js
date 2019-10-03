@@ -1,5 +1,6 @@
 import React from "react";
 import { Form, Field } from "react-final-form";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Footer extends React.Component {
   onSubmit = values => {
@@ -35,7 +36,12 @@ class Footer extends React.Component {
           <div className="info">
             <div className="info-left"></div>
             <div className="divider" />
-            <div className="socials"></div>
+            <div className="socials">
+              <FontAwesomeIcon icon="check-square" />
+              <FontAwesomeIcon icon="instagram" />
+              <FontAwesomeIcon icon="linkedin-in" />
+              <FontAwesomeIcon icon="twitter" />
+            </div>
           </div>
         </div>
         <div className="sr-footer">Website by SR Technologies - © 2019</div>

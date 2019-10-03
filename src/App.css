@@ -191,5 +191,31 @@ h1 {
   padding: 8px;
   font-size: 12px;
 }
+/* -------------------------------- */
 
+/* FOOTER INFO */
+/* -------------------------------- */
+.info {
+  margin: 55px 100px 55px 0;
+  display: grid;
+  grid-template-columns: 200px 35px 1px 35px 200px;
+  grid-template-rows: 25px 230px 25px;
+}
+
+.info-left {
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.divider {
+  background-color: #f3f3f3;
+
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
 /* -------------------------------- */

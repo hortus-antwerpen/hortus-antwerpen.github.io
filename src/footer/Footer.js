@@ -33,7 +33,9 @@ class Footer extends React.Component {
             />
           </div>
           <div className="info">
-            <p>Contactinfo</p>
+            <div className="info-left"></div>
+            <div className="divider" />
+            <div className="socials"></div>
           </div>
         </div>
         <div className="sr-footer">Website by SR Technologies - © 2019</div>

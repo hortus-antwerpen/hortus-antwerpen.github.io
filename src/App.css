@@ -198,16 +198,29 @@ h1 {
 .info {
   margin: 55px 100px 55px 0;
   display: grid;
-  grid-template-columns: 200px 35px 1px 35px 200px;
+  grid-template-columns: auto 35px 1px 35px 200px;
   grid-template-rows: 25px 230px 25px;
 }
 
 .info-left {
-  background-color: red;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
+
+  font-size: 18px;
+  align-self: center;
+}
+
+.info-left .part-1,
+.info-left .part-2 {
+  margin-bottom: 20px;
+}
+
+.info-left .part-1 p,
+.info-left .part-2 p,
+.info-left .part-3 p:not(:last-child) {
+  margin-bottom: 5px;
 }
 
 .socials {
@@ -223,10 +236,22 @@ h1 {
   align-self: center;
 }
 
-.socials > i {
-  color: red;
-  width: 30px;
+/* DOESN'T WORK FOR NOW */
+/* .socials #facebook:hover {
+  color: #3b5999;
 }
+
+.socials #instagram:hover {
+  fill: #e4405f;
+}
+
+.socials #linkedin:hover {
+  fill: #0077b5;
+}
+
+.socials #twitter:hover {
+  fill: #55acee;
+} */
 
 .divider {
   background-color: #f3f3f3;

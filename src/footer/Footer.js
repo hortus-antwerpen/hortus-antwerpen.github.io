@@ -1,6 +1,7 @@
 import React from "react";
 import { Form, Field } from "react-final-form";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 class Footer extends React.Component {
   onSubmit = values => {
@@ -34,13 +35,25 @@ class Footer extends React.Component {
             />
           </div>
           <div className="info">
-            <div className="info-left"></div>
+            <div className="info-left">
+              <div className="part-1">
+                <p>Wommelgemsesteenweg 42</p>
+                <p>2531 Vremde</p>
+              </div>
+              <div className="part-2">
+                <p>+32 (0) 0477 29 89 09</p>
+              </div>
+              <div className="part-3">
+                <p>BTW BE0734.733.131</p>
+                <p>KVK 0734.733.131</p>
+              </div>
+            </div>
             <div className="divider" />
             <div className="socials">
-              <FontAwesomeIcon icon="check-square" />
-              <FontAwesomeIcon icon="instagram" />
-              <FontAwesomeIcon icon="linkedin-in" />
-              <FontAwesomeIcon icon="twitter" />
+              <FontAwesomeIcon icon={faFacebookF} size="2x" className="icon facebook" />
+              <FontAwesomeIcon icon={faInstagram} size="2x" className="icon instagram" />
+              <FontAwesomeIcon icon={faLinkedinIn} size="2x" className="icon linkedin" />
+              <FontAwesomeIcon icon={faTwitter} size="2x" className="icon twitter" />
             </div>
           </div>
         </div>

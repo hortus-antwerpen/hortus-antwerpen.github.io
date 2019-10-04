@@ -99,6 +99,8 @@ h1 {
 .img-right img {
   object-fit: cover;
   object-position: 0 30%;
+  height: 300px;
+  width: 450px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -111,6 +113,12 @@ h1 {
 
   .img-right {
     order: 0;
+  }
+
+  .img-right img,
+  .img-left img {
+    height: 200px;
+    width: 300px;
   }
 
   .text-left {
@@ -291,6 +299,20 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   align-self: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .info {
+    display: grid;
+    grid-template-columns: auto 35px 1px 35px 50px;
+    grid-template-rows: 25px 230px 25px;
+  }
+
+  .socials {
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+  }
 }
 
 /* DOESN'T WORK FOR NOW */

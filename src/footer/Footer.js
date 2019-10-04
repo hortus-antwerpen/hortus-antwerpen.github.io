@@ -12,7 +12,7 @@ class Footer extends React.Component {
     return (
       <>
         <div className="footer_wrapper">
-          <div>
+          <div className="hide-on-mobile">
             <Form
               onSubmit={this.onSubmit}
               render={({ handleSubmit, form, submitting, pristine, values }) => (

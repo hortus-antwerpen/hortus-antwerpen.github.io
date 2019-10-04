@@ -34,6 +34,20 @@ h1 {
   justify-content: space-between;
   width: 400px;
 }
+
+.logo {
+  height: 85px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    padding: 8px 50px;
+  }
+
+  .logo {
+    height: 40px;
+  }
+}
 /* -------------------------------- */
 
 /* HOME GRID */
@@ -147,6 +161,16 @@ h1 {
   margin: 55px 100px 55px 0;
 }
 
+@media only screen and (max-width: 1024px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .info {
+    margin: 55px auto;
+  }
+}
+
 /* -------------------------------- */
 
 /* FOOTER FORM */
@@ -224,7 +248,6 @@ h1 {
 /* FOOTER INFO */
 /* -------------------------------- */
 .info {
-  margin: 55px 100px 55px 0;
   display: grid;
   grid-template-columns: auto 35px 1px 35px 200px;
   grid-template-rows: 25px 230px 25px;
@@ -238,6 +261,12 @@ h1 {
 
   font-size: 18px;
   align-self: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .info-left {
+    font-size: 14px;
+  }
 }
 
 .info-left .part-1,

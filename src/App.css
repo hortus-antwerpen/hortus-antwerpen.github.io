@@ -25,14 +25,14 @@ h1 {
   justify-content: space-between;
   align-items: center;
   background-color: #ebebeb;
-  padding: 20px 100px;
+  padding: 8px 100px;
 }
 
 .flex-right {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 35%;
+  width: 400px;
 }
 /* -------------------------------- */
 

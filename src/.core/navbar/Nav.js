@@ -6,7 +6,7 @@ class Nav extends React.Component {
     return (
       <div className="wrapper">
         <div className="logo">
-          <h2>LOGO</h2>
+          <img src="img/logo_hortus.png" alt="logo" height="85" />
         </div>
         <div className="flex-right">
           <p>HOME</p>

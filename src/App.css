@@ -39,6 +39,10 @@ h1 {
   height: 85px;
 }
 
+.show-on-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 1024px) {
   .wrapper {
     padding: 8px 50px;
@@ -46,6 +50,10 @@ h1 {
 
   .logo {
     height: 40px;
+  }
+
+  .show-on-mobile {
+    display: block;
   }
 }
 /* -------------------------------- */

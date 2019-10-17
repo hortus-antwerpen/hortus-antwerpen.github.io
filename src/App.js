@@ -1,17 +1,18 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./.core/navbar/navbar";
-import Home from "./home/Home";
+import Navigation from "./.core/navbar/navigation";
 import Footer from "./footer/Footer";
 
-function App() {
-  return (
-    <div>
-      <Navbar />
-      <Home />
-      <Footer />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return(
+      <>
+        <Navigation/>
+        <Footer/>
+      </>
+    )
+  }
+
 }
 
 export default App;

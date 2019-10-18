@@ -159,6 +159,12 @@ h1 {
 .txt {
   text-align: justify;
 }
+
+@media only screen and (max-width: 1024px) {
+  .title {
+    font-size: 28px;
+  }
+}
 /* -------------------------------- */
 
 /* FOOTER GENERAL */
@@ -327,7 +333,7 @@ h1 {
 
   .socials {
     flex-direction: column;
-    height: 200px;
+    height: 100px;
     align-items: center;
   }
 }

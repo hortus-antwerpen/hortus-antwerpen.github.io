@@ -2,6 +2,7 @@
   "name": "hortus-antwerpen",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://www.hortus-antwerpen.be",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
@@ -9,6 +10,7 @@
     "@fortawesome/react-fontawesome": "^0.1.5",
     "bootstrap": "^4.3.1",
     "final-form": "^4.18.5",
+    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.9.0",
@@ -20,6 +22,8 @@
     "save": "^2.4.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

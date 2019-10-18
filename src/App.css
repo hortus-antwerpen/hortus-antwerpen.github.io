@@ -22,7 +22,7 @@ h1 {
 .wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center; /* Change to space-between when re-adding navitems */
   align-items: center;
   background-color: #ebebeb;
   padding: 8px 100px;
@@ -254,6 +254,15 @@ h1 {
   color: #f3f3f3;
 }
 
+.message {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+
+  justify-self: center;
+}
+
 .sr-footer {
   text-align: center;
   padding: 8px;
@@ -265,7 +274,7 @@ h1 {
 /* -------------------------------- */
 .info {
   display: grid;
-  grid-template-columns: auto 35px 1px 35px 200px;
+  grid-template-columns: auto 35px 1px 35px 80px;
   grid-template-rows: 25px 230px 25px;
 }
 
@@ -323,22 +332,17 @@ h1 {
   }
 }
 
-/* DOESN'T WORK FOR NOW */
-/* .socials #facebook:hover {
+.socials a {
+  color: #ebebeb;
+}
+
+.socials #facebook:hover {
   color: #3b5999;
 }
 
 .socials #instagram:hover {
-  fill: #e4405f;
+  color: #e4405f;
 }
-
-.socials #linkedin:hover {
-  fill: #0077b5;
-}
-
-.socials #twitter:hover {
-  fill: #55acee;
-} */
 
 .divider {
   background-color: #f3f3f3;

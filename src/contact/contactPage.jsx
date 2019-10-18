@@ -1,11 +1,9 @@
 import React from "react";
 
-class GalleryPage extends React.Component {
-    render(){
-        return (
-            <p>Gallery</p>
-        )
-    }
+class ContactPage extends React.Component {
+  render() {
+    return <p>Contact</p>;
+  }
 }
 
-export default GalleryPage;
+export default ContactPage;

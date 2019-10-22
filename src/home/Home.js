@@ -13,7 +13,7 @@ class Home extends React.Component {
             <p className="txt">
               Het snoeien van een boom is werk voor een echte professional. Indien dit niet correct gebeurt loopt uw boom een
               verhoogde kans op ziektes. Bij Hortus klimmen we met gespecialiseerde klimapparatuur in uw boom en verwijderen we
-              dode, storende en overhangen de takken. Dit zorgt er voor dat uw boom weer mooi in evenwicht is en voorkomt dat de
+              dode, storende en overhangende takken. Dit zorgt er voor dat uw boom weer mooi in evenwicht is en voorkomt dat de
               boom te groot wordt waardoor deze een gevaar kan vormen. In uitzonderlijke gevallen zullen wij gebruik maken van een
               hoogtewerker. Al het snoeiafval hakselen wij en voeren wij af indien de klant dit wenst.
             </p>
@@ -45,8 +45,8 @@ class Home extends React.Component {
             <p className="txt">
               Het onderhoud van een tuin vraagt de nodige tijd, inspanning en kennis. Hortus kan het algemene onderhoud van uw
               tuin van u overnemen. Wij zorgen er voor dat u in elk seizoen kunt genieten van een mooie en gezonde tuin. Wij
-              werken met een periodiek systeem waarbij de klant kiest hoe frequent zijn tuin moet onderhouden worden. Dit kan al
-              vanaf één keer per maand. Zo hoeft u niet telkens een afspraak te maken en bent u zeker van het onderhoud van uw
+              werken ook met een periodiek systeem waarbij de klant kiest hoe frequent zijn tuin moet onderhouden worden. Dit kan
+              al vanaf één keer per maand. Zo hoeft u niet telkens een afspraak te maken en bent u zeker van het onderhoud van uw
               tuin.
             </p>
           </div>

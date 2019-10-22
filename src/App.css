@@ -25,7 +25,7 @@ h1 {
   justify-content: center; /* Change to space-between when re-adding navitems */
   align-items: center;
   background-color: #ebebeb;
-  padding: 8px 100px;
+  padding: 22px 100px;
 }
 
 .flex-right {
@@ -45,11 +45,11 @@ h1 {
 
 @media only screen and (max-width: 1024px) {
   .wrapper {
-    padding: 8px 50px;
+    padding: 18px 50px;
   }
 
   .logo {
-    height: 40px;
+    height: 60px;
   }
 
   .show-on-mobile {
@@ -135,7 +135,7 @@ h1 {
 
   .img-left,
   .img-right {
-    margin: 100px 50px 0 50px;
+    margin: 75px 50px 0 50px;
   }
 
   .txt-right,
